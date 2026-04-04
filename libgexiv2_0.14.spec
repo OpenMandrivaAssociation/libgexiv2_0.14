@@ -51,9 +51,6 @@ Group:		Development/C
 Summary:	A GObject-based wrapper around the Exiv2 library
 Requires:	%{libname} = %{EVRD}
 Requires:	%{girname} = %{EVRD}
-Provides:	%{name}-devel = %{EVRD}
-Provides:	lib%{name}-devel = %{EVRD}
-Obsoletes:	%{mklibname -d -s gexiv2} < 0.3.92-2
 
 %description -n %{devname}
 This package contains the development files for %{name}.
